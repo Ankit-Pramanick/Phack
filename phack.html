@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Halloween</title>
+    <style>
+        body {
+            background-color: black;
+            color: orange;
+            font-family: 'Creepster', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(halloween-background-with-scary-pumpkins-candles-graveyard-night-with-castle-background_123827-25820.avif);
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            font-size: 5rem;
+            text-shadow: 3px 3px 10px purple;
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        p {
+            font-size: 1.5rem;
+            height: 50px;
+            margin-top: 20px;
+            
+        }
+
+        @keyframes flicker {
+            0% { text-shadow: 3px 3px 10px purple; }
+            50% { text-shadow: 3px 3px 20px orange; }
+            100% { text-shadow: 3px 3px 10px purple; }
+        }
+
+        
+
+        a {
+            color: orange;
+            text-decoration: none;
+            border: 2px solid orange;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+
+        a:hover {
+            background-color: orange;
+            color: black;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Happy Halloween!</h1>
+    <p>Get ready for a spooky night filled with tricks and treats!</p>
+    <a href="https://frabjous-chaja-29691b.netlify.app/">Enter... If You Dare!</a>
+</body>
+</html>
